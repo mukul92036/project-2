@@ -1,0 +1,959 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a, a:hover{
+    text-decoration: none;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Lato';
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+/* Global CSS Start Here */
+
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+.col-md-12{
+    width: 100%;
+    float: left;
+}
+.col-md-4{
+    width: 33.33%;
+    float: left;
+}
+
+/* header section Css start here */
+.header-section{
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    background: url("../img/bg.png") center top no-repeat;
+    background-size: cover;
+}
+
+.header-section .logo{
+    padding: 10px 0;
+}
+.header-section .nav{
+    padding: 10px 0;
+    text-align: right;
+}
+
+.header-section .nav ul li{
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.5s;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+.header-section .nav ul li a:visited{
+    color: #fff;
+}
+
+.header-section .nav ul li a img{
+    display: block;
+    margin: 5px auto 0;
+    width: 40px;
+    height: auto;
+}
+
+.header-section .nav ul li a:hover{
+    color: #15a4fa;
+    border-bottom: 2px solid #15a4fa;
+    padding-bottom: 10px;
+}
+
+.banner-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+.banner-inner{
+    position: relative;
+    top: 50px;
+}
+
+
+.banner-inner h5{
+    color: #15a4fa;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.banner-inner h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.banner-inner p{
+    color: #999;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+.banner-img{
+    position: relative;
+    top: 30px;
+}
+
+.buttons .btn{
+    display: inline-block;
+    padding: 15px 25px;
+    color: #fff;
+    border: 1px solid #555;
+    margin-right: 15px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.buttons .btn:first-child{
+    background: #15a4fa;
+    border: 1px solid #15a4fa;
+}
+
+.buttons .btn:hover{
+    background: #15a4fa;
+    transition: 0.5s;
+}
+
+.banner-img img{
+    width: 100%;
+}
+/* header section Css end here */
+
+/* Feature Section CSS Start Here */
+
+.feature-section{
+    width: 100%;
+    float: left;
+    padding: 50px 0 60px;
+    background: #fff;
+}
+
+/* Feature Title */
+
+.feature-section .feature-title{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.feature-section .feature-title h5{
+    color: #15a4fa;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.feature-section .feature-title h2{
+    color: #222;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+/* Dot Image */
+
+.feature-section .feature-title + div{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.feature-section .feature-title + div img{
+    width: 40px;
+    height: auto;
+}
+
+/* Feature Row */
+
+.feature-section .row{
+    float: left;
+    width: 100%;
+}
+
+.feature-section .col-md-3{
+    width: 25%;
+    float: left;
+}
+
+/* Feature Box */
+
+.feature-section .feature-box{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 0 15px;
+}
+
+/* Icon Image */
+
+.feature-section .feature-box .icon{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 25px;
+}
+
+.feature-section .feature-box .icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Feature Heading */
+
+.feature-section .feature-box h3{
+    color: #222;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+/* Feature Paragraph */
+
+.feature-section .feature-box p{
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+
+/* Feature Section CSS End Here */
+
+/* About Section CSS Start Here */
+
+.about-section{
+    width: 100%;
+    float: left;
+    padding: 60px 0;
+    background: #fff;
+}
+
+.about-section .about-img{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.about-section .about-img img{
+    width: 100%;
+    height: auto;
+}
+
+ .about-section .about-content{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 80px 50px;
+    box-sizing: border-box;
+}
+
+.about-section .about-content h5{
+    color: #15a4fa;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.about-section .about-content h2{
+    color: #222;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+
+.about-section .about-content img{
+    width: 40px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.about-section .about-content p{
+    color: #999;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.about-section .about-content ul{
+    width: 100%;
+    float: left;
+}
+
+.about-section .about-content ul li{
+    display: block;
+    font-size: 16px;
+    color: #333;
+    line-height: 34px;
+    margin-bottom: 0;
+}
+
+.about-section .about-content ul li img{
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* About Section CSS End Here */
+
+/* Customize Section CSS Start Here */
+
+.customize-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: #f2f2f2;
+}
+
+.customize-section .customize-content{
+    width: 100%;
+    float: left;
+    padding: 40px 0;
+}
+
+.customize-section .customize-content h5{
+    color: #15a4fa;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.customize-section .customize-content h2{
+    color: #222;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+
+.customize-section .customize-content img{
+    width: 40px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.customize-section .customize-content p{
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.customize-section .customize-img{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.customize-section .customize-img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Customize Section CSS End Here */
+
+/* Testimonial Section CSS Start Here */
+
+.testimonial-section{
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+    background:url("../img/Warstwa 8.png") center center no-repeat;
+    background-size: cover;
+}
+
+.testimonial-section .testimonial-title{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.testimonial-section .testimonial-title h5{
+    color: #15a4fa;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.testimonial-section .testimonial-title h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+
+.testimonial-section .testimonial-title img{
+    width: 40px;
+    height: auto;
+}
+
+.testimonial-section .testimonial-box{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.testimonial-section .testimonial-box p{
+    color: #fff;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 0;
+}
+
+.testimonial-section .client-info{
+    width: 55px;
+    float: left;
+}
+
+.testimonial-section .client-info img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-section .client-details{
+    width: calc(100% - 65px);
+    float: left;
+    padding: 5px 0;
+}
+
+.testimonial-section .client-details h5{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 3px;
+}
+
+.testimonial-section .client-details h6{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 0;
+}
+
+.testimonial-section .testimonial-dots{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.testimonial-section .testimonial-dots span{
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.testimonial-section .testimonial-dots span.active{
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+/* CTA Bar CSS Start Here */
+
+.testimonial-section .cta-bar{
+    width: 100%;
+    float: left;
+    padding: 25px 0;
+    border-top: 1px solid #333;
+    background: #15141a;
+    box-sizing: border-box;
+}
+
+.testimonial-section .cta-content{
+    width: 60%;
+    float: left;
+}
+
+.testimonial-section .cta-content h3{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0;
+}
+
+.testimonial-section .cta-content h3 span{
+    color: #999;
+    font-weight: 300;
+}
+
+.testimonial-section .cta-buttons{
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding: 5px 0;
+}
+
+.testimonial-section .cta-buttons .btn{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.testimonial-section .cta-buttons .btn-outline{
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.testimonial-section .cta-buttons .btn-blue{
+    color: #fff;
+    background: #15a4fa;
+    border: 1px solid #15a4fa;
+}
+
+.testimonial-section .cta-buttons .btn-outline:hover{
+    color: #15a4fa;
+    border-color: #15a4fa;
+}
+
+.testimonial-section .cta-buttons .btn-blue:hover{
+    background: transparent;
+    color: #15a4fa;
+}
+
+/* CTA Bar CSS End Here */
+
+/* Testimonial Section CSS End Here */
+
+/* Pricing & Plans Section Section Css Start Here */
+
+/* Pricing Plans Section Base */
+.PricingPlans-Section {
+    width: 100%;
+    float: left;
+    padding: 90px 0 100px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.PricingPlans-title {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.PricingPlans-title h5 {
+    font-size: 13px;
+    color: #15a4fa;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.PricingPlans-title h2 {
+    font-size: 32px;
+    color: #222;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.PricingPlans-title img {
+    width: 40px;
+    height: auto;
+}
+
+.PricingPlans-Section .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    box-sizing: border-box;
+}
+
+.PricingPlans-Section .col-md-3 {
+    flex: 0 0 23%;
+    max-width: 23%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Pricing Box Card */
+.pricing-box {
+    background: #ffffff;
+    padding: 35px 0 30px;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.pricing-box h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.pricing-box .price-wrap {
+    padding: 15px 0;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.pricing-box .price-wrap h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #222;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.pricing-box .price-wrap h2 sup {
+    font-size: 24px;
+    font-weight: 400;
+    top: -20px;
+}
+
+.pricing-box .price-wrap .month {
+    font-size: 12px;
+    color: #999;
+    font-style: italic;
+    margin: 0;
+}
+
+.pricing-box .pricing-description {
+    font-size: 13px;
+    color: #888888;
+    line-height: 22px;
+    padding: 25px 20px 20px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.pricing-btn {
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: transparent;
+    color: #15a4fa;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.pricing-btn:hover {
+    background-color: #15a4fa;
+    color: #ffffff;
+    border-color: #15a4fa;
+}
+
+/* Active Highlight Card (BUSINESS) */
+.pricing-box.active h3 {
+    color: #15a4fa;
+}
+
+.pricing-box.active .price-wrap {
+    background: #15a4fa;
+    border-color: #15a4fa;
+}
+
+.pricing-box.active .price-wrap h2,
+.pricing-box.active .price-wrap .month {
+    color: #ffffff;
+}
+
+.pricing-box.active .pricing-btn {
+    background-color: #15a4fa;
+    color: #ffffff;
+    border-color: #15a4fa;
+}
+
+.pricing-box.active .pricing-btn:hover {
+    background-color: #0b8bd6;
+    border-color: #0b8bd6;
+}
+
+/* ========================================================
+   Contact Section CSS Start Here
+   ======================================================== */
+.contact-section {
+    width: 100%;
+    float: left;
+    padding: 90px 0 0;
+    background-color: #ededed;
+}
+
+.contact-section .contact-title {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-section .contact-title h5 {
+    color: #15a4fa;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.contact-section .contact-title h2 {
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-section .contact-title img {
+    width: 40px;
+    height: auto;
+}
+
+.contact-info-row {
+    width: 100%;
+    float: left;
+    margin-bottom: 70px;
+}
+
+.contact-info-box {
+    text-align: center;
+    padding: 0 15px;
+}
+
+.contact-info-box img {
+    display: block;
+    margin: 0 auto 15px;
+    height: 28px;
+    width: auto;
+}
+
+.contact-info-box p {
+    color: #777;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0;
+}
+
+/* Contact Map & Form Wrapper */
+.contact-map-wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 480px;
+}
+
+.contact-map-wrapper .map-bg {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 140px);
+    background: url("../img/Googlmap.png") center center no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.contact-map-wrapper .form-container {
+    position: relative;
+    z-index: 2;
+}
+
+.contact-form-box {
+    width: 750px;
+    margin: 0 auto;
+    background: #15141a;
+    padding: 50px 45px 45px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    border-radius: 4px;
+}
+
+.contact-form-box .row {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    float: none;
+}
+
+.contact-form-box .form-col {
+    flex: 1;
+    width: 50%;
+    float: none;
+    box-sizing: border-box;
+}
+
+.contact-form-box input[type="text"],
+.contact-form-box input[type="email"] {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #444;
+    border-radius: 3px;
+    padding: 12px 15px;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 18px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+.contact-form-box textarea {
+    width: 100%;
+    height: 154px;
+    background: transparent;
+    border: 1px solid #444;
+    border-radius: 3px;
+    padding: 12px 15px;
+    color: #fff;
+    font-size: 12px;
+    outline: none;
+    box-sizing: border-box;
+    resize: none;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+.contact-form-box input:focus,
+.contact-form-box textarea:focus {
+    border-color: #15a4fa;
+}
+
+.contact-form-box input::placeholder,
+.contact-form-box textarea::placeholder {
+    color: #777;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact-form-box .form-btn-wrap {
+    width: 100%;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.contact-form-box .send-btn {
+    background: #15a4fa;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 28px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form-box .send-btn:hover {
+    background: #0b8bd6;
+}
+
+/* ========================================================
+   Footer Section CSS Start Here
+   ======================================================== */
+.footer-section {
+    width: 100%;
+    float: left;
+    background: #15141a;
+    padding: 45px 0 40px;
+    text-align: center;
+    border-top: 1px solid #222;
+}
+
+.footer-social {
+    margin-bottom: 20px;
+}
+
+.footer-social a {
+    display: inline-block;
+    color: #666;
+    font-size: 16px;
+    margin: 0 12px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.footer-social a:hover {
+    color: #15a4fa;
+    transform: translateY(-2px);
+}
+
+.footer-section .copyright {
+    color: #555;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+
